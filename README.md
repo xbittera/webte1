@@ -1,1 +1,1 @@
-# webte1
+# Poorlingo - WEBTE1 - Záverečné zadanie
