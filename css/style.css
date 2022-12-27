@@ -1,13 +1,53 @@
-h1 {
-    color: white;
-    font-weight: bold;
+@font-face {
+    font-family: lowBudget;
+    src: url(../fonts/Low\ Budget.ttf);
 }
 
-p {
+h1 {
+    text-align: center;
+    font-size: 120px;
     color: white;
+    font-weight: bold;
+    width: 50%;
+    margin: 0 auto;
+    text-shadow: 4px 4px 4px #000000;
 }
 
 body {
-    text-align: center;
-    background-color: #404040;
+    font-family: lowBudget, sans-serif;
+    background: linear-gradient(90deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%); 
+}
+
+#menu {
+    margin-top: 5%;
+}
+
+#continue,
+#newgame,
+#levels,
+#tutorial {
+    color: white;
+    font-size: 32px;
+    font-family: lowBudget, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    display: block;
+    padding: 1%;
+    width: 20%;
+    background-color: blueviolet;
+    border: 5px solid black;
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+    transition: background-color 40ms ease-out 20ms;
+    transition: width 150ms ease-out 20ms;
+}
+
+#continue:hover,
+#newgame:hover,
+#levels:hover,
+#tutorial:hover {
+    font-size: 34px;
+    background-color: rgb(194, 129, 255);
+    width: 22%;
 }
